@@ -9,9 +9,9 @@ from discord.ui import View
 TOKEN = os.getenv("TOKEN")
 
 # ====== IDs eintragen ======
-LOG_CHANNEL_ID = 0           # z.B. 123456789012345678
-STAFF_ROLE_ID = 0            # z.B. 123456789012345678
-TICKET_CATEGORY_ID = 0       # z.B. 123456789012345678, oder 0 lassen
+LOG_CHANNEL_ID = 1431399966135291968           # z.B. 123456789012345678
+STAFF_ROLE_ID = 1431397179225800724            # z.B. 123456789012345678
+TICKET_CATEGORY_ID = 1434944487959822438       # z.B. 123456789012345678, oder 0 lassen
 DATA_FILE = "moddata.json"
 
 # ====== Intents ======
