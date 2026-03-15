@@ -382,7 +382,7 @@ async def userlog(ctx, user_id: int):
 # Ticket Panel Command
 # =========================
 @bot.command()
-@commands.has_permissions(administrator=True)
+@commands.has_permissions(manage_channels=True)
 async def panel(ctx):
     embed = discord.Embed(
         title="🎫 Support Tickets",
