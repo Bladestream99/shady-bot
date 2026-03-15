@@ -5,7 +5,7 @@ import os
 from datetime import timedelta
 
 import os
-TOKEN = os.getenv (MTQ2OTA1NzExMTY4OTM5NjM4OA.G2f3QY.Mpu9FZuYpIgfOIRhuY8oLBvmiv3BjpsO1COeWk)
+TOKEN = os.getenv ("TOKEN")
 
 # 👉 HIER deine Log-Channel-ID eintragen (Rechtsklick auf Kanal -> "Kanal-ID kopieren")
 LOG_CHANNEL_ID = 1431399966135291968
