@@ -203,6 +203,49 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send("Pong! 🏓")
 
+@bot.command()
+async def help(ctx):
+
+    text = """
+📘 **Shaady Bot Befehle**
+
+🤖 Bot
+!ping
+→ Prüft ob der Bot online ist.
+
+🧹 Moderation
+!clear ZAHL
+→ Löscht Nachrichten.
+
+!timeout @User MINUTEN GRUND
+→ User kann für eine Zeit nicht schreiben.
+
+!kick @User GRUND
+→ Entfernt User vom Server.
+
+!banid USERID GRUND
+→ Bannt User über ID.
+
+!unban USERID
+→ Entbannt User.
+
+📁 Moderationsakte
+!note USERID TEXT
+→ Notiz über User speichern.
+
+!warn USERID GRUND
+→ Warnung speichern.
+
+!userlog USERID
+→ Moderationsakte anzeigen.
+
+🎫 Tickets
+!panel
+→ Ticket Panel erstellen.
+"""
+
+    await ctx.send(text)
+
 
 # =========================
 # Moderation
